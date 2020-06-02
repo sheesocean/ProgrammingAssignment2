@@ -1,7 +1,6 @@
 ## the following functions show how to cache and compute the inverse of a square matrix.
 ## this function, makeCacheMatrix creates a special "matrix" that can cache its inverse.
 
-
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
   set <- function(y) {
